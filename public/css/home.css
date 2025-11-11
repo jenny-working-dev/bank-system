@@ -67,3 +67,11 @@ h2 {
 .balance {
   font-size: 2rem;
 }
+
+/* deposit */
+#deposit-form,
+#withdraw-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

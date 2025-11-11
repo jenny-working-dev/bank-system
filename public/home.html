@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLI Bank</title>
+    <link rel="stylesheet" href="/public/css/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h1>CLI Bank</h1>
+      <div class="menu-btn">
+        <button><i data-lucide="layout-dashboard"></i>Dashboard</button>
+        <button><i data-lucide="wallet"></i> Deposit</button>
+        <button><i data-lucide="banknote"></i> Withdraw</button>
+        <button><i data-lucide="history"></i> Transactions</button>
+        <button><i data-lucide="log-out"></i> Logout</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <h2>Welcome, ichi_ni</h2>
+
+      <div class="account-balance">
+        <span>Account Balance</span>
+        <span class="balance">₱50,000.00</span>
+
+        <div>
+          <button>Deposit</button>
+          <button>Withdraw</button>
+        </div>
+      </div>
+
+      <div class="recent-trans">
+        <span>Recent Transactions</span>
+      </div>
+    </div>
+    <script src="./js/home.js">
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
